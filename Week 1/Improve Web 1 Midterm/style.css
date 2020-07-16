@@ -1,0 +1,53 @@
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html { 
+    height:100%
+}
+
+#tophead {
+    background-image: url('src/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-txt {
+    font-family: Georgia;
+}
+
+.pNextLogo {
+    float: left;
+}
+
+.logoSTIU {
+    width: 150;
+    height: 150;
+    float: right;
+}
+
+.loremFirst {
+    line-height: 1.5;
+    
+}
+
+.loremFirst::first-letter {
+    font-size: 40px;
+}
+
+td.highLightTable {
+    background-color: yellow;
+}
+
+td.row3spantext {
+
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.page-footer {
+    background-color:#1C2331
+}

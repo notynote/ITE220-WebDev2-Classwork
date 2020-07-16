@@ -1,0 +1,57 @@
+h1 {
+    color: blue;
+    font-family: Georgia;
+}
+
+.modDate {
+    font-style: italic;
+}
+
+li:nth-child(1){
+    color: red;
+    font-weight: bold;
+}
+
+.loremFirst {
+    line-height: 1.5;
+    
+}
+
+.loremFirst::first-letter {
+    font-size: 40px;
+}
+
+.pNextLogo {
+    float: left;
+}
+
+.logoSTIU {
+    width: 150;
+    height: 150;
+    float: right;
+}
+
+table {
+    color: blue;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th.topTable {
+    background-color: lightgray
+}
+
+td.highLightTable {
+    background-color: yellow;
+}
+
+td.centerATable {
+    text-align: center;
+}
+
+button {
+    color: #2d525d;
+    background-color: #c4f1fe;
+}
